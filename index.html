@@ -4,22 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- header -->
     <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="#studio">Studio</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+      <nav class="header-nav">
+        <a href="./index.html" class="header-logo"
+          >Web<span class="header-logo-dark">Studio</span></a
+        >
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#studio" class="nav-link">Studio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="contacts">
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="contacts-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a href="tel:+110001111111" class="contacts-link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
