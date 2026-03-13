@@ -1,0 +1,19 @@
+body {
+    font-family: "Roboto", sans-serif
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* header */
+
