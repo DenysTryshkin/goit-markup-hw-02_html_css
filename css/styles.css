@@ -35,7 +35,7 @@ button {
 }
 
 /* header */
-.header-logo {
+.logo {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
@@ -175,4 +175,19 @@ button {
     line-height: 1.5%;
     letter-spacing: 0.02em;
     color: var(--slate);
+}
+
+/* footer */
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.footer-logo-light {
+    color:  var(--cloud);
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
 }
